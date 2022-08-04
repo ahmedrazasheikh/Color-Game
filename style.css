@@ -1,0 +1,57 @@
+html{
+    font-size:  62.5%;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.start{
+    max-width: 100vmax;
+    min-height: 100vh;
+    background-color: rgb(91, 228, 255);
+}
+
+.game{
+    padding-top: 20rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+
+.heart{
+    width: 100px;
+    margin-bottom: 1rem;
+    height: 100px;
+    border: 1px solid black;
+    /* background: rgb(222, 255, 34); */
+    border-radius: 50%
+  }
+  body{
+    background-color:black;
+    animation:  10s infinite alternate;
+    animation: 10s infinite alternate;
+    animation: 10s infinite alternate;
+}
+
+@keyframes image{
+    0%{
+background-color:blue;
+}
+25%{
+    background-color:red;
+}
+50%{
+    background-color:green;
+}
+75%{
+
+    background-color:pink;
+}
+100%{
+    background-color:yellow;
+    }
+  }  
